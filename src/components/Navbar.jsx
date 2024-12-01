@@ -1,6 +1,6 @@
-import logo from "../assets/kevinRushLogo.png";
+import logo from "../assets/WH-logo.svg";
 import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+
 import { FaTwitterSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 const Navbar = () => {
@@ -11,7 +11,6 @@ const Navbar = () => {
 			</div>
 			<div className="m-8 flex items-center justify-between py-6 text-2xl">
 				<FaLinkedin></FaLinkedin>
-				<FaGithub></FaGithub>
 				<FaTwitterSquare></FaTwitterSquare>
 				<FaInstagram></FaInstagram>
 			</div>

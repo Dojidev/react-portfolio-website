@@ -3,6 +3,13 @@ import About from "./components/About";
 import Hero from "./components/Hero";
 import Technology from "./components/Technology";
 import Experience from "./components/Experience";
+import Project from "./components/Projects";
+import Contact from "./components/Contact";
+import Branding from "./components/Branding";
+import Marketing from "./components/Marketing";
+import Packaging from "./components/Packaging";
+import Publication from "./components/Publication";
+import Vahicle from "./components/Vahicale";
 
 const App = () => {
 	return (
@@ -16,8 +23,15 @@ const App = () => {
 				<Navbar />
 				<Hero />
 				<About />
-        <Technology/>
-        <Experience/>
+				<Technology />
+				<Experience />
+				<Project />
+				<Branding />
+				<Marketing />
+				<Packaging />
+				<Publication />
+				<Vahicle />
+				<Contact />
 			</div>
 		</div>
 	);
